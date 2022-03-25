@@ -45,7 +45,7 @@
             "default": "StanLee_Cap,Ironman_Cap,Thor_Cap,Hulk_Cap,Cpt_America_Cap,DrStrange_Cap,Cpt_Marvel_Cap,BlackWidow_Cap,Hawkeye_Cap,Gamora_Cap,Drax_Cap,Groot_Cap,Rocket_Cap,Nebula_Cap,StarLord_Cap,Mantis_Cap,Spiderman_Cap,Vision_Cap,ScarletWitch_Cap,Quicksilver_Cap,DrOctopus_Cap,DianaG15,Wasp_Cap,Ant_Man_Cap,Thanos_Cap,Heimdall_Cap,Falcon_Cap,BlackPanther_Cap,Valkyrie_Cap,JessicaJones_Cap,Ironfist_Cap,LukeCage_Cap,Daredevil_Cap,General_Chaos,RammboNr5,liveonnr1",
             "label": "WHITELIST",
             "name": "WHITELIST",
-            "preset": true
+            "preset": false
         },
         {
             "default": "StanLee_Cap,General_Chaos,RammboNr5,liveonnr1",
@@ -236,7 +236,7 @@
         }
       ],
       "image": "kimragnaschwerdtcap/minetest-wrapper",
-      "logo": "https://www.it-times.de/resources/dam/asset/8264/ittimes_news_detail_medium.jpg",
+      "logo": "https://dl.dropboxusercontent.com/s/92nhbpd3d63qdma/mt_block3.png",
       "platform": "linux",
       "ports": [
         "30000:30000/udp"
