@@ -187,7 +187,7 @@
             "default": "Minetest@Capgemini",
             "label": "MOTD",
             "name": "MOTD",
-            "preset": true
+            "preset": false
         },
         {
             "default": "v7",
@@ -209,25 +209,25 @@
             "default": "StanLee_Cap,General_Chaos,RammboNr5,liveonnr1",
             "label": "ADMINS",
             "name": "ADMINS",
-            "preset": true
+            "preset": false
         },
         {
             "default": "50",
             "label": "MAX_USERS",
             "name": "MAX_USERS",
-            "preset": true
+            "preset": false
         }, 
         {
             "default": "Minetest@Capgemini",
             "label": "SERVER_NAME",
             "name": "SERVER_NAME",
-            "preset": true
+            "preset": false
         },
         {
             "default": "Beschreibung des Servers",
             "label": "SERVER_DESCRIPTION",
             "name": "SERVER_DESCRIPTION",
-            "preset": true
+            "preset": false
         },
         {
             "label": "PASSWORD",
