@@ -236,7 +236,7 @@
         }
       ],
       "image": "kimragnaschwerdtcap/minetest-wrapper",
-      "logo": "https://dl.dropboxusercontent.com/s/92nhbpd3d63qdma/mt_block3.png",
+      "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
       "platform": "linux",
       "ports": [
         "30000:30000/udp"
