@@ -242,7 +242,7 @@
         "30000:30000/udp"
       ],
       "restart_policy": "unless-stopped",
-      "title": "Minecraft4Scrum",
+      "title": "Minetest Server",
       "type": 1      
     }
   ]
