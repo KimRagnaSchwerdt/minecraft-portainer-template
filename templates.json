@@ -178,6 +178,72 @@
       "restart_policy": "unless-stopped",
       "title": "Minecraft4Scrum",
       "type": 1      
-    }    
+    },
+    {
+        "categories": ["Other"],
+        "description": "Minetest Server",
+        "env": [
+          {
+            "default": "Minetest@Capgemini",
+            "label": "MOTD",
+            "name": "MOTD",
+            "preset": true
+        },
+        {
+            "default": "v7",
+            "label": "Karte",
+            "name": "MAPGEN",
+            "select": [
+                {
+                  "text": "Standardkarte",
+                  "value": "v7",
+                  "default": true
+                },
+                {
+                  "text": "flat",
+                  "value": "flat"
+                }
+              ]
+        },
+        {
+            "default": "StanLee_Cap,General_Chaos,RammboNr5,liveonnr1",
+            "label": "ADMINS",
+            "name": "ADMINS",
+            "preset": true
+        },
+        {
+            "default": "50",
+            "label": "MAX_USERS",
+            "name": "MAX_USERS",
+            "preset": true
+        }, 
+        {
+            "default": "Minetest@Capgemini",
+            "label": "SERVER_NAME",
+            "name": "SERVER_NAME",
+            "preset": true
+        },
+        {
+            "default": "Beschreibung des Servers",
+            "label": "SERVER_DESCRIPTION",
+            "name": "SERVER_DESCRIPTION",
+            "preset": true
+        },
+        {
+            "label": "PASSWORD",
+            "name": "PASSWORD",
+            "preset": false
+        }
+      ],
+      "image": "kimragnaschwerdtcap/minetest-wrapper",
+      "logo": "https://www.it-times.de/resources/dam/asset/8264/ittimes_news_detail_medium.jpg",
+      "platform": "linux",
+      "ports": [
+        "30000:30000/udp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Minecraft4Scrum",
+      "type": 1      
+    }
   ]
 }
