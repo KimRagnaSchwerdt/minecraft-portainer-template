@@ -185,7 +185,7 @@
         "env": [
           {
             "default": "Minetest@Capgemini",
-            "label": "MOTD",
+            "label": "Message of the day",
             "name": "MOTD",
             "preset": false
         },
@@ -200,37 +200,38 @@
                   "default": true
                 },
                 {
-                  "text": "flat",
+                  "text": "flach",
                   "value": "flat"
                 }
               ]
         },
         {
-            "default": "StanLee_Cap,General_Chaos,RammboNr5,liveonnr1",
-            "label": "ADMIN",
+            "default": "<1 Trainername>",
+            "label": "Admin",
             "name": "ADMIN",
-            "preset": false
+            "preset": false,
+            "description" : "1 Trainername"
         },
         {
             "default": "50",
-            "label": "MAX_USERS",
+            "label": "Maximale User",
             "name": "MAX_USERS",
             "preset": false
         }, 
         {
             "default": "Minetest@Capgemini",
-            "label": "SERVER_NAME",
+            "label": "Servername",
             "name": "SERVER_NAME",
             "preset": false
         },
         {
             "default": "Beschreibung des Servers",
-            "label": "SERVER_DESCRIPTION",
+            "label": "Serverbeschreibung",
             "name": "SERVER_DESCRIPTION",
             "preset": false
         },
         {
-            "label": "PASSWORD",
+            "label": "Passwort",
             "name": "PASSWORD",
             "preset": false
         }
