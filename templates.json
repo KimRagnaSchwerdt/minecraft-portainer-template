@@ -74,7 +74,7 @@
               ]
         }
       ],
-      "image": "kimragnaschwerdtcap/minetest-wrapper",
+      "image": "kimragnaschwerdtcap/minetest-wrapper:mods",
       "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
       "platform": "linux",
       "ports": [
