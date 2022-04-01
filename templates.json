@@ -56,6 +56,22 @@
             "label": "Passwort",
             "name": "PASSWORD",
             "preset": false
+        },
+        {
+            "default": "true",
+            "label": "Erweiterungen",
+            "name": "MODS",
+            "select": [
+                {
+                  "text": "ja",
+                  "value": "true",
+                  "default": true
+                },
+                {
+                  "text": "nein",
+                  "value": ""
+                }
+              ]
         }
       ],
       "image": "kimragnaschwerdtcap/minetest-wrapper",
